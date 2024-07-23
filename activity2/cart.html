@@ -6,44 +6,90 @@
     <title>Online Book Store - Cart</title>
     <style>
         body {
-	    background-color:bisque;
             font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
         }
+        
         #top-frame, #left-frame, #right-frame {
             padding: 10px;
             border: 1px solid #ccc;
             margin: 5px;
+            border-radius: 5px;
         }
+        
         #top-frame {
-	    background-color:white;
+            background-color: #0073e6;
+            color: #fff;
             text-align: center;
         }
+        
         #left-frame {
-	    background-color:white;
+            background-color: #ffcc66;
             float: left;
             width: 20%;
+            color: #333;
         }
+        
         #right-frame {
-	    background-color:white;
+            background-color: #e6f7ff;
             margin-left: 22%;
+            text-align: center;
+            color: #333;
         }
+        
         #navbar a {
             margin: 0 15px;
             text-decoration: none;
-            color: #333;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        #navbar a:hover {
+            text-decoration: underline;
         }
         table {
             width: 100%;
             border-collapse: collapse;
+            margin: 20px 0;
         }
+        
         table, th, td {
-            border: 1px solid #ddd;
+            border: 1px solid #ccc;
         }
+        
         th, td {
-            padding: 8px;
+            padding: 10px;
             text-align: left;
         }
-    </style>
+        
+        th {
+            background-color: #0073e6;
+            color: #fff;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        img {
+            height: 50px;
+        }
+        
+        button {
+            padding: 5px 10px;
+            background-color: #0073e6;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #005bb5;
+        }
+        </style>
 </head>
 <body>
     <div id="top-frame">
